@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#form {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#list {
+    margin-top: 10px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.container {
+    width: 450px;
+}
+
+.inputContainer {
+    display: flex;
+}
+
+.inputContainer input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    flex-grow: 1;
+    outline: 0;
+    font-family:'Montserrat', sans-serif;
+}
+
+.inputContainer button {
+    border: 0;
+    border-radius: 3px;
+    margin-left: 5px;
+    background-color: #555;
+    color: #fff;
+    font-weight: 600;
+    font-family:'Montserrat', sans-serif;
+}
+
+.inputContainer button:hover, .inputContainer button:focus {
+    border: 0;
+    border-radius: 3px;
+    margin-left: 5px;
+    background-color: #888;
+    color: #fff;
+    font-weight: 600;
+    font-family:'Montserrat', sans-serif;
+    outline: 0px;
+}
+
+.todoCard {
+    margin: 5px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.todoCard p {
+    flex-grow: 1;
+}
+
+.todoDone {
+    font-style: italic;
+    color: #888;
+}
+
+.todoDone p {
+    text-decoration: line-through;
+}
