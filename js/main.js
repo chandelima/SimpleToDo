@@ -72,7 +72,7 @@ function fillCard(todo) {
     return todoCard;
 }
 
-function fillTable() {
+export function fillTable() {
     const listElement = document.getElementById("list");
     listElement.innerHTML = "";
 
